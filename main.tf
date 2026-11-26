@@ -24,7 +24,7 @@ variable "instance_name" {
 
 variable "key_name" {
   type = string
-  default = "key-new"
+  default = "newkey"
 }
 
 resource "aws_default_vpc" "default" {
